@@ -10,7 +10,7 @@ delete, edit, show transactions in desired order, and so on.
 
 Steve Wang
 - Email: shihaowang@brandeis.edu
-- Github Link: ([Yell0wF1sh/github.com](https://github.com/Yell0wF1sh))
+- Github Link: [Yell0wF1sh/github.com](https://github.com/Yell0wF1sh)
 
 ## Screenshots of the app
 
