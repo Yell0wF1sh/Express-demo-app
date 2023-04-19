@@ -1,0 +1,15 @@
+<h1>Editing Transaction Item</h1>
+<form method="post" action="/transaction/updateTransactionItem">
+    <input type="hidden" name="itemId" value="<%= item._id %>">
+    Description:
+    <input type="text" value="<%= item.description %>" name="description"><br>
+    Amount:
+    <input type="text" value="<%= item.amount %>" name="amount"><br>
+    Category:
+    <input type="text" value="<%= item.category %>" name="category"><br>
+    Date:
+    <% let date=JSON.stringify(item.date).split('T')[0].slice(1) %>
+        <input type="date" value="<%= date %>" name="date"><br>
+        <input type="submit" value="store"><br><br>
+        <a href="/transaction" class="navButton" style="font-size: 16px;">back</a>
+</form>
