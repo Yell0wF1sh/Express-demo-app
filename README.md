@@ -14,13 +14,13 @@ Steve Wang
 
 ## Screenshots of the app
 
-- Home ![home](/src/img/home.JPG)
-- Login ![login](/src/img/login.JPG)
-- Sign up ![signup](/src/img/signup.JPG)
-- About ![about](/src/img/about.JPG)
-- transaction ![transaction](/src/img/transaction.JPG)
-- transaction grouped by category ![transaction_group_by_category](/src/img/transaction_group_by_category.JPG)
-- transaction sorted by amount ![transaction_sort_by_amount](/src/img/transaction_sort_by_amount.JPG)
-- transaction sorted by category ![transaction_sort_by_category](/src/img/transaction_sort_by_category.JPG)
-- transaction sorted by date ![transaction_sort_by_date](/src/img/transaction_sort_by_date.JPG)
-- transaction sorted by description ![transaction_sort_by_description](/src/img/transaction_sort_by_description.JPG)
+- **Home** ![home](/src/img/home.JPG)
+- **Login** ![login](/src/img/login.JPG)
+- **Sign up** ![signup](/src/img/signup.JPG)
+- **About** ![about](/src/img/about.JPG)
+- **Transaction** ![transaction](/src/img/transaction.JPG)
+- **Transaction grouped by category** ![transaction_group_by_category](/src/img/transaction_group_by_category.JPG)
+- **Transaction sorted by amount** ![transaction_sort_by_amount](/src/img/transaction_sort_by_amount.JPG)
+- **Transaction sorted by category** ![transaction_sort_by_category](/src/img/transaction_sort_by_category.JPG)
+- **Transaction sorted by date** ![transaction_sort_by_date](/src/img/transaction_sort_by_date.JPG)
+- **Transaction sorted by description** ![transaction_sort_by_description](/src/img/transaction_sort_by_description.JPG)
