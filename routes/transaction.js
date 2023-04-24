@@ -106,6 +106,11 @@ router.get('/transaction/groupByCategory',
                             _id: '$category',
                             total: { $sum: '$amount' },
                         }
+                    },
+                    {
+                        $sort: {
+                            total: -1
+                        }
                     }
                 ]
             )
