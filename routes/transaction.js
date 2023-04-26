@@ -102,6 +102,11 @@ router.get('/transaction/groupByCategory',
             await TransactionItem.aggregate(
                 [
                     {
+                        $match: {
+                            userId: req.user._id,
+                        }
+                    },
+                    {
                         $group: {
                             _id: '$category',
                             total: { $sum: '$amount' },
@@ -109,7 +114,7 @@ router.get('/transaction/groupByCategory',
                     },
                     {
                         $sort: {
-                            total: -1
+                            total: -1,
                         }
                     }
                 ]
