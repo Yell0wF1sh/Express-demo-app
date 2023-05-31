@@ -3,8 +3,9 @@
 ## Description
 This is a git repository which contains the code of programming assignment 04 (pa04) for cosi103a in Brandeis University.
 
-This is a app built to use Express and MongoDB to create an app that allows users to do different operations to a MongoDB database which contains information of transactions. Users can add,
-delete, edit, show transactions in desired order, and so on.
+This is an app built with Express and MongoDB to allow users to do various operations including add,
+delete, edit, and show details of a list of transactions entered by the user. The database built using MongoDB records this
+list of transactions and has a login procedure to keep the data safe. 
 
 ## Author
 

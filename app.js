@@ -65,10 +65,7 @@ app.use(session({
   cookie: {
     maxAge: 1000 * 60 * 60 * 24 * 7 // 1 week                                        
   },
-  store: store,
-  // Boilerplate options, see:                                                       
-  // * https://www.npmjs.com/package/express-session#resave                          
-  // * https://www.npmjs.com/package/express-session#saveuninitialized               
+  store: store,           
   resave: true,
   saveUninitialized: true
 }));
